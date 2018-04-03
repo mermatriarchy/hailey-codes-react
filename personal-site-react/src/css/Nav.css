@@ -1,0 +1,40 @@
+/* top contact icons */
+.contact-top{
+  margin-top: 0;
+  top: -1%;
+  left: 77%;
+  position: fixed;
+  height: 3em;
+  width: 3em;
+  z-index: 9999;
+}
+
+.contact-top li {
+	margin-bottom: 0;
+}
+
+#contact-one{
+  padding-top: .75em;
+}
+
+#contact-style{
+  height: 0;
+  width: 0;
+  border-left: 1.5em solid transparent;
+  border-right: 1.5em solid transparent;
+  border-top: 1em solid #0D47A1;
+}
+
+.contact-top a:hover, .icon-fix a:hover{
+  background-color: transparent;
+}
+
+.contact-top a:hover{
+  opacity: .7;
+}
+
+/* normalize reset*/
+#top {
+	margin: 0;
+	padding: 5rem 0 1rem;
+}
