@@ -10,7 +10,7 @@ import logo from '../img/logo.svg';
 import '../css/skeleton_css/skeleton.css';
 import '../css/skeleton_css/normalize.css';
 import '../css/App.css';
-
+import '../css/Nav.css';
 
 class App extends Component {
   render() {

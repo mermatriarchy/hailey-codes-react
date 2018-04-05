@@ -33,8 +33,19 @@
   opacity: .7;
 }
 
-/* normalize reset*/
+/* normalize, skeleton resets */
 #top {
 	margin: 0;
 	padding: 5rem 0 1rem;
+}
+
+a:hover {
+  color: inherit;
+  opacity: .8;
+}
+
+@media (max-width: 640px) {
+  .hide-on-med-and-down {
+    display: none;
+  }
 }
